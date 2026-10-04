@@ -30,7 +30,8 @@ npm install
 Create a .env file in the root directory by referencing the required variables below.
 
 Note on MongoDB Connection:
-For testing purposes, you can use your own MongoDB Atlas cluster connection string or a local MongoDB URI. Replace <db_password> with your actual database password. like-
+For testing purposes, you can use your own MongoDB Atlas cluster connection string or a local MongoDB URI.
+Replace <db_password> with your actual database password. like-
 
 PORT=5000
 MONGO_URI=mongodb+srv://<username>:<db_password>@cluster0.xxxxx.mongodb.net/political_poster_db?retryWrites=true&w=majority
