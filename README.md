@@ -18,7 +18,7 @@ A robust TypeScript & Express.js backend for the **AI Political Poster Maker** p
 Follow these simple steps to set up and run the backend locally on your machine:
 
 ### 1. Clone the Repository
-```bash
+
 git clone [https://github.com/ArafatBinIbrahim/Ai-poster-maker-Backend.git]
 cd Ai-poster-maker-Backend
 
