@@ -21,12 +21,11 @@ A TypeScript and Express.js REST API for the **AI Political Poster Maker** platf
 ## Prerequisites
 
 Please make sure you have the following before you start:
-
-- **Node.js** v18 or higher ([download](https://nodejs.org))
-- **npm** (comes with Node.js)
-- A free **MongoDB Atlas** account ([sign up](https://www.mongodb.com/atlas))
-- A free **Cloudinary** account ([sign up](https://cloudinary.com))
-- A **Google Gemini API key** ([get one](https://aistudio.google.com/app/apikey))
+* Node.js v18 or higher ([download](https://nodejs.org/))
+* npm (comes with Node.js)
+* A free MongoDB Atlas account ([sign up](https://www.mongodb.com/cloud/atlas))
+* A free Cloudinary account ([sign up](https://cloudinary.com/))
+* A Google Gemini API key ([get one](https://aistudio.google.com/))
 
 ---
 
