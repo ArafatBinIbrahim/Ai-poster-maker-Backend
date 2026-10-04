@@ -21,17 +21,22 @@ A TypeScript and Express.js REST API for the AI Political Poster Maker platform.
 
 ### 1. Clone the repository
 
-git clone [https://github.com/ArafatBinIbrahim/Ai-poster-maker-Backend.git](https://github.com/ArafatBinIbrahim/Ai-poster-maker-Backend.git)
+```bash
+git clone https://github.com/ArafatBinIbrahim/Ai-poster-maker-Backend.git
 cd Ai-poster-maker-Backend
+```
 
-2. Install dependencies
-Bash
+### 2. Install dependencies
+
+```bash
 npm install
+```
 
-3. Set up MongoDB Atlas & Cloudinary
-Create a .env file in the project root and add your configuration:
+### 3. Set up MongoDB Atlas & Cloudinary
 
-Code snippet
+Create a `.env` file in the project root and add your configuration:
+
+```env
 # Server
 PORT=5000
 
@@ -45,28 +50,38 @@ JWT_SECRET=your_super_secret_jwt_key_here
 CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+```
 
-4. Seed the initial templates
+### 4. Seed the initial templates
+
 Inserts sample Bangladeshi poster templates (Victory Day, Memorial, Election Campaign, Greetings, Eid):
 
-Bash
-
+```bash
 npm run seed
+```
 
-5. Run the server
-Development: npm run dev
+### 5. Run the server
 
-Production: npm run build && npm start
+- **Development:** `npm run dev`
+- **Production:** `npm run build && npm start`
 
-Method,Endpoint,Auth required,Description
-POST,/auth/register,No,Register a new user
-POST,/auth/login,No,Log in and receive a JWT token
-GET,/templates,No,Get the list of poster templates
-POST,/upload,Yes,"Upload a user photo (form-data, key: photo)"
-POST,/posters,Yes,Submit the poster form and start generation
-GET,/posters/:id,Yes,Get poster status and preview result
+---
 
-👨‍💻 Author
-Kazi Arafat Bin Ibrahim
+## 📡 API Endpoints
+
+| Method | Endpoint | Auth required | Description |
+| :--- | :--- | :--- | :--- |
+| POST | `/auth/register` | No | Register a new user |
+| POST | `/auth/login` | No | Log in and receive a JWT token |
+| GET | `/templates` | No | Get the list of poster templates |
+| POST | `/upload` | Yes | Upload a user photo (form-data, key: `photo`) |
+| POST | `/posters` | Yes | Submit the poster form and start generation |
+| GET | `/posters/:id` | Yes | Get poster status and preview result |
+
+---
+
+## 👨‍💻 Author
+
+**Kazi Arafat Bin Ibrahim**
 
 BRAC University | Software Engineer & Full-Stack Developer
