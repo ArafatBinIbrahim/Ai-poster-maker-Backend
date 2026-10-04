@@ -19,7 +19,7 @@ Follow these simple steps to set up and run the backend locally on your machine:
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/ArafatBinIbrahim/Ai-poster-maker-Backend.git](https://github.com/ArafatBinIbrahim/Ai-poster-maker-Backend.git)
+git clone [https://github.com/ArafatBinIbrahim/Ai-poster-maker-Backend.git]
 cd Ai-poster-maker-Backend
 
 
